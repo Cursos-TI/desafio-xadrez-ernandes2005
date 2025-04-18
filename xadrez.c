@@ -2,7 +2,7 @@
 
 int main(){
 
-    int t = 1, b = 1;
+    int t = 1, b = 1, c, movimentodocavalo = 1;
 
 //movendo a torre com WHILE
 
@@ -30,6 +30,19 @@ int main(){
     {
         printf("%d esquerda\n", r);
     }
+
+    //movendo o cavalo
+
+    printf("**movendo o cavalo**\n");
+
+    for (c = 1; c <= 2; c++){
+        printf("%d cima\n", c);
+    }
+    while (movimentodocavalo <= 1){
+        printf("%d direita\n", movimentodocavalo);
+        movimentodocavalo++;
+    }
+
     
 
 
